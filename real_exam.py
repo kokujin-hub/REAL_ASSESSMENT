@@ -3,7 +3,7 @@ import sqlite3
 from tabulate import tabulate
 
 # This is the filename of the database to be used
-DB_NAME = 'cars_relationships.db'
+DB_NAME = 'real_exam.db'
 
 def print_query(view_name:str):
     ''' Prints the specified view from the database in a table '''
