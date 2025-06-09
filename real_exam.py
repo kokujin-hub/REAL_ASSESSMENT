@@ -21,3 +21,16 @@ def print_query(view_name:str):
     # Print the results in a table with the headings
     print(tabulate(results,headings))
     db.close()
+
+menu_choice=''
+
+while menu_choice != 'Z':
+    menu_choice = input('Welcome to the NBA TOP 20 players database, according to google|\n\n'
+                        'Type the letter for the information you want out of my database: \n'
+                        'A: This is the details for all the players that are included in top 20\n'
+                        'B: Players who are Centres (abbreviated as "C")\n'
+                        'C: Players who are Power Forwards (abbreviated as "PF")\n'
+                        'D: Players who are Point Guard (abbreviated as "PG")\n'
+                        'E: Players who are Small Forward (abbreviated as "SF")\n'
+                        'F: PLayers who are Shooting Guard (abbreviated as "SG")\n'
+                        )
