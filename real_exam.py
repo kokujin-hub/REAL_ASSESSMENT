@@ -23,7 +23,6 @@ def print_query(view_name:str):
     db.close()
 
 menu_choice=''
-
 while menu_choice != 'Z':
     menu_choice = input('Welcome to the NBA TOP 20 players database, according to google\n\n'
                         'Type the letter for the information you want out of my database: \n'
@@ -34,7 +33,7 @@ while menu_choice != 'Z':
                         'E: Players who are Small Forward (abbreviated as "SF")\n'
                         'F: PLayers who are Shooting Guard (abbreviated as "SG")\n'
                         'Z: Exit\n\nType option here: ')
-menu_choice = menu_choice.upper()
+    menu_choice = menu_choice.upper()
 
 if menu_choice == 'A':
     print_query('all datas')
