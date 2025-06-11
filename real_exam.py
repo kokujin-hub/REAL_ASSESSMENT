@@ -32,7 +32,18 @@ while menu_choice != 'Z':
                         'D: Players who are Point Guard (abbreviated as "PG")\n'
                         'E: Players who are Small Forward (abbreviated as "SF")\n'
                         'F: PLayers who are Shooting Guard (abbreviated as "SG")\n'
+
                         'Z: Exit\n\nType option here: ')
     menu_choice = menu_choice.upper()
     if menu_choice == 'A':
         print_query('all datas')
+    elif menu_choice == 'B':
+        print_query('C_players')
+    elif menu_choice == 'C':
+        print_query('PF_players')
+    elif menu_choice == 'D':
+        print_query('PG_players')
+    elif menu_choice == 'E':
+        print_query('SF_players')
+    elif menu_choice == 'F':
+        print_query('SG_players')
