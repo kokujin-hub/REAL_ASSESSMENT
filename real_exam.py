@@ -32,7 +32,13 @@ while menu_choice != 'Z':
                         'D: Players who are Point Guard (abbreviated as "PG")\n'
                         'E: Players who are Small Forward (abbreviated as "SF")\n'
                         'F: PLayers who are Shooting Guard (abbreviated as "SG")\n'
-
+                        'G: Players that have not won any championship or non-new Nba fans call it "Ring"\n'
+                        'H: Players that have won a championship\n'
+                        'I: This is the stats for all players\n'
+                        'J: This is the players that averaged 20 points per game or nba fans call it ppg\n'
+                        'K: Players that have won more than 4 championship\n'
+                        'L: Players career assist, points and championship\n'
+                        'M: players career rebound\n'
                         'Z: Exit\n\nType option here: ')
     menu_choice = menu_choice.upper()
     if menu_choice == 'A':
