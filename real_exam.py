@@ -25,7 +25,7 @@ def print_query(view_name:str):
 menu_choice=''
 
 while menu_choice != 'Z':
-    menu_choice = input('Welcome to the NBA TOP 20 players database, according to google|\n\n'
+    menu_choice = input('Welcome to the NBA TOP 20 players database, according to google\n\n'
                         'Type the letter for the information you want out of my database: \n'
                         'A: This is the details for all the players that are included in top 20\n'
                         'B: Players who are Centres (abbreviated as "C")\n'
