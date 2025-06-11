@@ -33,4 +33,5 @@ while menu_choice != 'Z':
                         'D: Players who are Point Guard (abbreviated as "PG")\n'
                         'E: Players who are Small Forward (abbreviated as "SF")\n'
                         'F: PLayers who are Shooting Guard (abbreviated as "SG")\n'
-                        )
+                        'Z: Exit\n\nType option here: ')
+menu_choice = menu_choice.upper()
