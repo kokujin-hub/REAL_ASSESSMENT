@@ -35,3 +35,6 @@ while menu_choice != 'Z':
                         'F: PLayers who are Shooting Guard (abbreviated as "SG")\n'
                         'Z: Exit\n\nType option here: ')
 menu_choice = menu_choice.upper()
+
+if menu_choice == 'A':
+    print_query('all datas')
