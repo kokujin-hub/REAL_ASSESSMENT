@@ -38,7 +38,8 @@ while menu_choice != 'Z':
                         'J: This is the players that averaged 20 points per game or nba fans call it ppg\n'
                         'K: Players that have won more than 4 championship\n'
                         'L: Players career assist, points and championship\n'
-                        'M: players career rebound\n'
+                        'M: Teams where players perform the best\n'
+                        'N: Top_scorer players'
                         'Z: Exit\n\nType option here: ')
     menu_choice = menu_choice.upper()
     if menu_choice == 'A':
