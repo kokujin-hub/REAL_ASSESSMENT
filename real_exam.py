@@ -54,3 +54,5 @@ while menu_choice != 'Z':
         print_query('SF_players')
     elif menu_choice == 'F':
         print_query('SG_players')
+    elif menu_choice == 'G':
+        print_query('no_championship')
