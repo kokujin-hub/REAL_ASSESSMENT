@@ -69,5 +69,5 @@ while menu_choice != 'Z':
         print_query('players_assist_points_champion')
     elif menu_choice == 'M':
         print_query('players_team')
-    elif menu_choice == 'O':
-        print_query('30000_points')
+    elif menu_choice == 'N':
+        print_query('top_scorer')
