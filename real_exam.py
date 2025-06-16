@@ -73,4 +73,3 @@ while menu_choice != 'Z':
         print_query('top_scorer')
     elif menu_choice == 'O':
         print_query('30000_points')
-
