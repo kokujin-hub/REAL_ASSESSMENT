@@ -63,3 +63,11 @@ while menu_choice != 'Z':
         print_query('player_stats')
     elif menu_choice == 'J':
         print_query('players_20ppg')
+    elif menu_choice == 'K':
+        print_query('players_4championship')
+    elif menu_choice == 'L':
+        print_query('players_assist_points_champion')
+    elif menu_choice == 'M':
+        print_query('players_team')
+    elif menu_choice == 'O':
+        print_query('30000_points')
