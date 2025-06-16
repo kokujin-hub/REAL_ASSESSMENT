@@ -40,7 +40,7 @@ while menu_choice != 'Z':
                         'L: Players with over 5,000 career assist, with championship and over 10,000 career points\n'
                         'M: The team that the player is in when hes playing his best\n'
                         'N: Top_scorer players\n'
-                        'O: players who have 30000 or over career_points\n'
+                        'O: players who have 30000 or over career_points with the players information\n'
                         'Z: Exit\n\nType option here: ')
     menu_choice = menu_choice.upper()
     if menu_choice == 'A':
@@ -71,3 +71,6 @@ while menu_choice != 'Z':
         print_query('players_team')
     elif menu_choice == 'N':
         print_query('top_scorer')
+    elif menu_choice == 'O':
+        print_query('30000_points')
+
