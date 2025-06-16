@@ -56,3 +56,9 @@ while menu_choice != 'Z':
         print_query('SG_players')
     elif menu_choice == 'G':
         print_query('no_championship')
+    elif menu_choice == 'H':
+        print_query('player_championship')
+    elif menu_choice == 'I':
+        print_query('player_stats')
+    elif menu_choice == 'J':
+        print_query('players_20ppg')
